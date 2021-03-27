@@ -5,10 +5,10 @@ from textblob import TextBlob
     
 def accessing(): 
         global api
-        access_token = "833188530696253440-X83gCiB0EF2T9T0Kph0jrYLQcVBwwsH"
-        access_token_secret = "yNUytkncNwjsC7rKhU67i2pEqohMVxEsdjsiNIFNq41q1"
-        consumer_key = "JKxb4idqVWlOokwM40K6nOa8h"
-        consumer_secret = "AGF90EhUvktAjs7qUlDHN8dURE0oMvZf73GMocuyNayGxJoWjn"
+        access_token = "# you have to acquire a access token from twitter using your own twitter account "
+        access_token_secret = "#you have to acquire a access token pin from twitter using your own twitter account"
+        consumer_key = "#you have to acquire access key for seeing another persons comments from twitter using your own twitter account"
+        consumer_secret = "#you have to acquire access key pin for seeing another persons comments from twitter using your own twitter account"
         # attempt authentication 
         try: 
             # create OAuthHandler object 
